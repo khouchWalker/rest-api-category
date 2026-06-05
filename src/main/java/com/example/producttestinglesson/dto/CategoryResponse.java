@@ -1,4 +1,9 @@
 package com.example.producttestinglesson.dto;
 
-public class CategoryResponse {
+public record CategoryResponse(
+        Integer id,
+        String name,
+        String description,
+        boolean isActive
+){
 }
