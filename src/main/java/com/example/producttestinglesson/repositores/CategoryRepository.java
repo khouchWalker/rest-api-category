@@ -11,10 +11,10 @@ import java.util.NoSuchElementException;
 public class CategoryRepository {
 
     private final List<Category> categoryList = new ArrayList<>() {{
-        add(new Category(9876, "Car", "Mercedes", true));
-        add(new Category(678, "Food", "Watermelon", false));
-        add(new Category(52932, "Business", "Product-Sales", false));
-        add(new Category(5087, "Drink", "Matcha", true));
+        add(new Category(1001, "Ministry", "Ministry of Education, Youth and Sport", true));
+        add(new Category(1002, "Ministry", "Ministry of Health", true));
+        add(new Category(1003, "Ministry", "Ministry of Economy and Finance", true));
+        add(new Category(1004, "Agency", "General Department of Taxation", true));
     }};
 
     public List<Category> getAllProduct() {
